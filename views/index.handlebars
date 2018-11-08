@@ -21,7 +21,7 @@
 			{{#each burgers}}
 				{{#unless devoured}}
 				  <div class="burger">
-				    <form class="devour-burger-form" action="/burgers/{{id}}" method="POST">
+				    <form class="devour-burger-form" data-id="{{id}}" action="/burgers/{{id}}" method="POST">
 				  		<button class="eat-btn">EAT</button>
 				    </form>
 						{{burger_name}} <span>#{{id}}</span>

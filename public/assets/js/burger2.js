@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     $(".eat-btn").on("click", function(event) {
         var id = $(this).data("id");
         var beenDevoured = {
@@ -36,4 +36,4 @@ $(function() {
             }
         );
     });
-})
+});
