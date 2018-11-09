@@ -21,8 +21,8 @@
 			{{#each burgers}}
 				{{#unless devoured}}
 				  <div class="burger">
-				    <form class="devour-burger-form" data-id="{{id}}" action="/burgers/{{id}}" method="POST">
-				  		<button class="eat-btn">EAT</button>
+				    <form class="devour-burger-form" action="/api/burgers/{{id}}?_method=PUT" method="POST">
+				  		<button class="eat-btn" data-id="{{id}}">EAT</button>
 				    </form>
 						{{burger_name}} <span>#{{id}}</span>
 				  </div>

@@ -2,7 +2,7 @@ $(document).ready(function() {
     $(".eat-btn").on("click", function(event) {
         var id = $(this).data("id");
         var beenDevoured = {
-            devoured: true
+            devoured: 1
         };
 
         //Send the PUT request
@@ -22,7 +22,8 @@ $(document).ready(function() {
         event.preventDefault();
 
         var newBurger = {
-            burger_name: $("#burger-name").val().trim()
+            burger_name: $("#burger-name").val().trim(),
+            devoured: false
         };
 
         //Send the POST request
