@@ -15,4 +15,4 @@ Eat the Burger is an app that allows users to submit their favorite burger and h
 ### Heroku Link
 [https://murmuring-stream-25841.herokuapp.com/]
 
-<img src="public/assets/img/screenshot.PNG" width=100% height="auto">
+<img src="public/assets/img/screenshot.PNG" width=750px height=475px>
